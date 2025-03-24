@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80" alt="Mountain">
+                <div class="slide-content">
+                    <h2>Majestic Mountains</h2>
+                    <p>Explore the breathtaking peaks and valleys of nature's finest creations.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Beach">
+                <div class="slide-content">
+                    <h2>Tropical Paradise</h2>
+                    <p>Experience the serenity of pristine beaches and crystal-clear waters.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1200&q=80" alt="Forest">
+                <div class="slide-content">
+                    <h2>Forest Wonders</h2>
+                    <p>Discover the hidden mysteries within ancient woodland landscapes.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80" alt="Alps">
+                <div class="slide-content">
+                    <h2>Alpine Beauty</h2>
+                    <p>Witness the stunning views from the top of the world.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-button prev" id="prevBtn">&lt;</button>
+        <button class="carousel-button next" id="nextBtn">&gt;</button>
+        <button class="carousel-button play-pause" id="playPauseBtn">
+            <span class="pause-icon">⏸</span>
+            <span class="play-icon hidden">▶</span>
+        </button>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
