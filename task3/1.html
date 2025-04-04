@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+    <nav>
+        <div class="nav-brand">Muhammad Affan</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Muhammad Affan</h1>
+            <p>Frontened Developer & Python Developer</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="portfolio.jpg"Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>I have a good understanding of front-end development, including HTML5, CSS3, and JavaScript, which helps me build attractive and responsive websites. I’m also skilled in working with MySQL databases for smooth data management. Additionally, I know Python and Java, allowing me to handle various back-end tasks. With these skills, I can create both the design and the functionality of web applications.</p>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>MYSQL</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="OIP.jpg"alt="Project 1">
+                <h3>Password Checker</h3>
+                <p>A password checker tests your password’s strength by checking its length, use of uppercase letters, numbers, and special characters. It helps ensure your password is secure enough to protect your accounts..</p>
+                <a href="https://alpha62-coder.github.io/Innova-Software-Agency/Task1/day1.html" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="Project 2">
+                <h3>Create an Animated Carousel Component </h3>
+                <p>An animated carousel component is a visual element that displays multiple items (such as images, text, or cards) in a sliding or fading manner.</p>
+                <a href="https://alpha62-coder.github.io/Innova-Software-Agency/Task2/1.html" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div id="thank-you" class="thank-you hidden">
+            Thank you for reaching out! I'll get back to you soon.
+        </div>
+    </section>
+
+    <button id="back-to-top" class="back-to-top hidden">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
